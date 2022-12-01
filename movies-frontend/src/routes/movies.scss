@@ -1,0 +1,24 @@
+.films {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  .film {
+    color: white;
+    min-width: 200px;
+    max-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin: 1rem 1rem 2rem 1rem;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+
+    min-height: 340px;
+  }
+}
