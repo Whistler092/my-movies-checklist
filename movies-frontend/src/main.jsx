@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
 import "./index.css";
 import Comments from "./routes/comments";
 import Movies from "./routes/movies";
@@ -14,15 +13,15 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: "movies",
+        path: "Movies",
         element: <Movies />,
       },
       {
-        path: "comments",
+        path: "Comments",
         element: <Comments />,
       },
       {
-        path: "profile",
+        path: "Profile",
         element: <Profile />,
       },
     ],
